@@ -43,10 +43,11 @@ main {
 }
 .food {
   text-align: center;
-  width: 100px;
+  width: 30%;
 }
-.food img[src^="./pictures/menu"] {
-  width: 200px;
+.food img {
+  width: 30%;
+  height: auto;
 }
 #location {
   padding-top: 10px;
