@@ -41,6 +41,10 @@ main {
   padding-top: 10px;
   text-align: center;
 }
+.food {
+  text-align: center;
+  width: 100px;
+}
 #location {
   padding-top: 10px;
   text-align: center;
