@@ -45,6 +45,9 @@ main {
   text-align: center;
   width: 100px;
 }
+.food img[src^="./pictures/menu"] {
+  width: 200px;
+}
 #location {
   padding-top: 10px;
   text-align: center;
