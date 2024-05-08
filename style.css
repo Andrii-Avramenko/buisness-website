@@ -31,7 +31,6 @@ header address a {
   font-style: italic;
   font-weight: bold;
 }
-
 /* main */
 main {
   background-color: #f5f5f5;
@@ -46,19 +45,20 @@ main {
   padding-top: 10px;
   text-align: center;
 }
-.food {
+#menu ul li {
   text-align: center;
   width: 30%; 
+  display: inline-block;
+  margin-bottom: 10px;
 }
-.food span {
+#menu span {
   font-weight: 400;
   color: #474747;
 }
-.food img {
-  width: 70%;
+#menu img {
+  width: 60%;
   height: auto;
 }
-
 #location {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -116,5 +116,14 @@ footer address span {
   }
   footer address a:active {
     color: yellow;
+  }
+  #menu ul li {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+  }
+  #menu h2 {
+    margin-bottom: 20px;
   }
 }
