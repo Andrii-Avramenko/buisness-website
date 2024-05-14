@@ -39,6 +39,15 @@ main {
   padding-top: 10px;
   text-align: center;
 }
+#main img {
+  width: 90%; 
+  height: auto;
+}
+@media screen and (min-width: 680px) {
+  #main img {
+    width: 680px;
+  }
+}
 #menu {
   font-family: Roboto, sans-serif;
   font-weight: 400;
